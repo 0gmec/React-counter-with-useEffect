@@ -26,6 +26,12 @@ useEffect (()=>{
         setCount (initialValue)
     }, [])
 
+    // Event Listeners
+    useEffect(()=>{
+        document.addEventListener
+
+    })
+
     // handler for reset
 const handleClick = () => {
     setCount(0), 
